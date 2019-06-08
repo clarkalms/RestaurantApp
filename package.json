@@ -1,29 +1,28 @@
 {
-  "name": "hotRestaurant-",
+  "name": "restaurantapp",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ebadowski/hotRestaurant-.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ebadowski/hotRestaurant-/issues"
-  },
-  "homepage": "https://github.com/ebadowski/hotRestaurant-#readme",
+  "description": "Designed to help you organize reservations for your restaurant.",
+  "main": "server.js",
   "dependencies": {
+    "express": "^4.17.1",
     "fs": "0.0.1-security",
     "mysql": "^2.17.1",
     "nodemon": "^1.19.1",
     "path": "^0.12.7"
   },
-  "devDependencies": {
-    "express": "^4.17.1"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarkalms/RestaurantApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clarkalms/RestaurantApp/issues"
+  },
+  "homepage": "https://github.com/clarkalms/RestaurantApp#readme"
 }
